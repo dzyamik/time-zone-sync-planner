@@ -39,3 +39,10 @@ npm run preview
 ```bash
 npm run deploy
 ```
+
+### Work with packages
+
+```bash
+rm -rf node_modules package-lock.json
+npm cache clean --force
+```
